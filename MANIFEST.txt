@@ -1,0 +1,20 @@
+BOT TRADER SWING MULTI V4.1.0 COMPLETE
+Version: 4.1.0
+Base: V2.3.0 -> V3.0.0 -> V3.1.0 -> V4.0.0 -> V4.1.0
+Tabs: 9
+Offline-first; no external AI API; no broker order execution.
+
+V4.1 additions:
+- modules/swing_trading_expert.py
+- tests/test_swing_trading_expert.py
+- SWING_TRADING_SPEC_V4.1.md
+- ARCHITECTURE_V4.1.md
+- CHANGELOG_V4.1.0.md
+- USER_GUIDE_V4.1.md
+
+Configuration:
+- Scope: BOTH (new stock screening + existing position management)
+- Holding horizon: 5-20 sessions
+- Risk style: balanced
+- Swing score: heuristic ranking, not probability
+- Dedicated walk-forward validation: not yet completed
